@@ -1,14 +1,13 @@
 {
     "name": "baccano/yii2-bootstrap4-rtl",
     "description": "The Twitter Bootstrap 4 Rtl extension for the Yii 2.0 framework",
-    "type": "library",
+    "type": "yii2-extension",
     "authors": [
         {
             "name": "Yehor Pozhohin",
             "email": "baccano.ran@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "baccano\\bootstrap\\": "src/"

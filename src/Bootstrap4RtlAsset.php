@@ -6,14 +6,14 @@ use yii\web\AssetBundle;
 
 class Bootstrap4RtlAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/twbs/bootstrap/dist';
+    public $sourcePath = 'css';
 
     /**
      * @var array
      */
     public $css = [
-        'css/bootstrap.css',
-        'css/bootstrap-reboot.css',
+        'bootstrap.min.css',
+        'bootstrap-reboot.min.css',
     ];
 
     /**
