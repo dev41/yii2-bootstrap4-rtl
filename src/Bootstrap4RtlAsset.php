@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class Bootstrap4RtlAsset extends AssetBundle
 {
-    public $sourcePath = 'css';
+    public $sourcePath = '@vendor/baccano/yii2-bootstrap4-rtl/css';
 
     /**
      * @var array
@@ -20,6 +20,5 @@ class Bootstrap4RtlAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-//        'yii\bootstrap\BootstrapPluginAsset',
     ];
 }
