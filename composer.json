@@ -8,7 +8,7 @@
             "email": "baccano.ran@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "baccano\\bootstrap\\": "src/"
